@@ -13,13 +13,13 @@ const Section1 = () => {
                 <p className='text-[16px] text-[#717171]'>We have been working with some Fortune 500+ clients</p>
             </div>
             <div className='flex h-[98px] justify-between items-center self-stretch'>
-                <img src={ one }/>
-                <img src={ two }/>
-                <img src={ three }/>
-                <img src={ four }/>
-                <img src={ five }/>
-                <img src={ six }/>
-                <img src={ seven }/>
+                <div className='px-[10px] md:px-0'><img src={ one }/></div>
+                <div className='px-[10px] md:px-0'><img src={ two }/></div>
+                <div className='px-[10px] md:px-0'><img src={ three }/></div>
+                <div className='px-[10px] md:px-0'><img src={ four }/></div>
+                <div className='px-[10px] md:px-0'><img src={ five }/></div>
+                <div className='px-[10px] md:px-0'><img src={ six }/></div>
+                <div className='px-[10px] md:px-0'><img src={ seven }/></div>
             </div>
         </div>
     );
