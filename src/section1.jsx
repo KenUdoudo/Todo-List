@@ -9,7 +9,7 @@ const Section1 = () => {
     return (
         <div className='flex flex-col px-[20px] md:px-[144px] items-center gap-[8px] md:gap-[16px] text-center font-inter'>
             <div>
-                <h3 className='text-[20px] md:text-[36px] text-[600] text-[#4D4D4D]'>Our Clients</h3>
+                <h3 className='text-[20px] md:text-[36px] text-[600] text-[#4D4D4D] pt-[10px] md:pt-0'>Our Clients</h3>
                 <p className='text-[16px] text-[#717171]'>We have been working with some Fortune 500+ clients</p>
             </div>
             <div className='flex h-[98px] justify-between items-center self-stretch'>

@@ -5,7 +5,7 @@ const Section2 = () => {
     return (
         <div className="py-[40px]">
             <div className='text-center'>
-                <h3 className='text-[36px] font-[600] text-[#4D4D4D]'>Manage your entire community <br/> in a single system</h3>
+                <h3 className='text-[25px] md:text-[36px] font-[600] text-[#4D4D4D]'>Manage your entire community <br/> in a single system</h3>
                 <p className='text-[16px] text-[#717171]'>Who is Nextcent suitable for?</p>
             </div>
 
