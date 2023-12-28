@@ -3,13 +3,13 @@ import nat from './assests/icon-nat.png'
 import club from './assests/iconclub.png'
 const Section2 = () => {
     return (
-        <div className="px-[40px]">
-            <div>
-                <h3>Manage your entire community in a single system</h3>
-                <p>Who is Nextcent suitable for?</p>
+        <div className="py-[40px]">
+            <div className='text-center'>
+                <h3 className='text-[36px] font-[600] text-[#4D4D4D]'>Manage your entire community <br/> in a single system</h3>
+                <p className='text-[16px] text-[#717171]'>Who is Nextcent suitable for?</p>
             </div>
 
-            <div>
+            <div className='flex px-[144px] justify-between items-center'>
                 <div className='flex flex-col w-[299px] px-[32px] py-[24px] items-center gap-[8px] flex-shrink text-center'>
                     <div><img src={ mem }/></div>
                     <h3 className='text-[#4D4D4D] text-[28px] font-[700]'>Membership Organisations</h3>
