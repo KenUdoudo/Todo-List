@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import heroimg from './assests/illustration.png'
 const Hero = () => {
     return (
-    <div className="font-[Inter]">
+    <div className="font-inter">
         <Navbar />
 
         <div className="flex flex-col md:flex-row md:px-[30px] lg:px-[50px] xl:px-[144px] py-[60px] md:py-[96px] items-center self-stretch gap-[60px] md:gap-[104px] bg-[#F5F7FA]">
