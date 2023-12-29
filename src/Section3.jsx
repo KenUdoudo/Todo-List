@@ -1,7 +1,7 @@
 import three from './assests/frame-35.png'
 const Section3 = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center px-[20px] lg:px-[100px] xl:px-[144px]">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center px-[20px] lg:px-[100px] xl:px-[144px] font-inter">
             <div className='px-[30px] lg:px-0'><img src={ three }/></div>
 
 
