@@ -16,15 +16,15 @@ const Section6 = () => {
                 <p className='text-[#4CAF4F] text-[20px] font-[600] self-stretch'>Tim Smith</p>
                 <p className='text-[#89939E] text-[16px] font-[400] self-stretch'>British Dragon Boat Racing Association</p>
 
-                <div className='flex h-[98px] justify-between items-center self-stretch'>
-                <div className='px-[10px] md:px-0'><img src={ one }/></div>
-                <div className='px-[10px] md:px-0'><img src={ two }/></div>
-                <div className='px-[10px] md:px-0'><img src={ three }/></div>
-                <div className='px-[10px] md:px-0'><img src={ four }/></div>
-                <div className='px-[10px] md:px-0'><img src={ five }/></div>
-                <div className='px-[10px] md:px-0'><img src={ six }/></div>
-                <div className='px-[10px] md:px-0 flex p-[8px] items-center gap-[8px]'>
-                    <p className='text-[#4CAF4F] text-[20px] font-[600]'>Meet all customers</p>
+                <div className='flex flex-wrap h-[98px] justify-between items-center self-stretch'>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ one }/></div>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ two }/></div>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ three }/></div>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ four }/></div>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ five }/></div>
+                <div className='px-[5px] md:px-[10px] xl:px-0'><img src={ six }/></div>
+                <div className='px-[10px] md:px-0 flex p-[8px] items-center gap-[4px] xl:gap-[8px]'>
+                    <p className='text-[#4CAF4F] text-[16px] xl:text-[20px] font-[600]'>Meet all customers</p>
                     <div><img src={ arrow }/></div>
                 </div>
             </div>
