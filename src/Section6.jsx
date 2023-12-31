@@ -23,7 +23,7 @@ const Section6 = () => {
                 <div className='px-[10px] md:px-0'><img src={ four }/></div>
                 <div className='px-[10px] md:px-0'><img src={ five }/></div>
                 <div className='px-[10px] md:px-0'><img src={ six }/></div>
-                <div className='px-[10px] md:px-0 flex p-[8px] items-center gap-[8px] flex-1-0-0'>
+                <div className='px-[10px] md:px-0 flex p-[8px] items-center gap-[8px]'>
                     <p className='text-[#4CAF4F] text-[20px] font-[600]'>Meet all customers</p>
                     <div><img src={ arrow }/></div>
                 </div>
