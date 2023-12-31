@@ -1,7 +1,7 @@
 import five from './assests/mobile-login-pana.png'
 const Section5 = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center px-[40px] lg:px-[100px] xl:px-[144px] self-stretch font-inter">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center py-[20px] px-[40px] lg:px-[100px] xl:px-[144px] self-stretch font-inter">
         <div className='px-[30px] md:px-0'><img src={ five }/></div>
 
 
