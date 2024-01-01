@@ -1,9 +1,24 @@
+import arrow from './assests/right.png'
 const Section7 = () => {
     return (
         <div>
-            <div className="flex flex-col items-center gap-[8px]">
+            <div className="flex flex-col items-center gap-[8px] text-center px-[166px]">
                 <h3>Caring is the new marketing</h3>
                 <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+            </div>
+
+            <div>
+                <div>
+                    <div><img src="" alt="" /></div>
+                    <div className='flex p-[16px] flex-col items-center gap-[16px] bg-[#F5F7FA] rounded-[8px] shadow-[0px 8px 16px 0px rgba(171, 190, 209, 0.40);]'>
+                        <p className='w-[285px] text-center text-[#717171] text-[20px] font-[600]'>Creating Streamlined Safeguarding Processes with OneRen</p>
+                        <div className='flex p-[8px] justify-center items-center gap-[8px] self-stretch'>
+                            <p className='text-[#4CAF4F] text-[20px] font-[600]'>Readmore</p>
+                            <img src={ arrow }/>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
