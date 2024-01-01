@@ -6,8 +6,8 @@ const Section7 = () => {
     return (
         <div>
             <div className="flex flex-col items-center gap-[8px] text-center px-[166px]">
-                <h3>Caring is the new marketing</h3>
-                <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                <h3 className='text-[#4D4D4D] text-[36px] font-[600] self-stretch'>Caring is the new marketing</h3>
+                <p className='w-[628px] text-[#717171] text-[16px]'>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
             </div>
 
             <div className='flex px-[144px] justify-between items-center'>
