@@ -1,4 +1,5 @@
 import arrow from './assests/right.png'
+import one from './assests/image-18.png'
 const Section7 = () => {
     return (
         <div>
@@ -8,8 +9,8 @@ const Section7 = () => {
             </div>
 
             <div>
-                <div>
-                    <div><img src="" alt="" /></div>
+                <div className='flex flex-col items-center gap-[-96px]'>
+                    <div><img src={ one }/></div>
                     <div className='flex p-[16px] flex-col items-center gap-[16px] bg-[#F5F7FA] rounded-[8px] shadow-[0px 8px 16px 0px rgba(171, 190, 209, 0.40);]'>
                         <p className='w-[285px] text-center text-[#717171] text-[20px] font-[600]'>Creating Streamlined Safeguarding Processes with OneRen</p>
                         <div className='flex p-[8px] justify-center items-center gap-[8px] self-stretch'>
