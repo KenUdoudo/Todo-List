@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './Footer.jsx'
 import Hero from './Hero.jsx'
 import Section3 from './Section3.jsx'
 import Section4 from './Section4.jsx'
@@ -29,6 +30,8 @@ function App() {
      <Section7 />
 
      <Section8 />
+
+     <Footer />
     </div>
   )
 }
