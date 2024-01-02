@@ -21,10 +21,10 @@ const Footer = () => {
             </div>
 
             <div className='flex items-start gap-7'>
-                <div className='flex flex-col items-start gap-6'>
-                    <h3>Company</h3>
-                    <div>
-                        <ul>
+                <div className='flex flex-col items-start gap-6 pr-10'>
+                    <h3 className='text-[20px] font-[600]'>Company</h3>
+                    <div className='text-[14px]'>
+                        <ul className='flex flex-col gap-3'>
                             <li>About us</li>
                             <li>Blog</li>
                             <li>Contact us</li>
@@ -34,6 +34,18 @@ const Footer = () => {
                     </div>
                 </div>
 
+                <div className='flex flex-col items-start gap-6 pr-10'>
+                    <h3 className='text-[20px] font-[600]'>Support</h3>
+                    <div className='text-[14px]'>
+                        <ul className='flex flex-col gap-3'>
+                            <li>Help center</li>
+                            <li>Terms of service</li>
+                            <li>Legal</li>
+                            <li>Privacy policy</li>
+                            <li>Status</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );
