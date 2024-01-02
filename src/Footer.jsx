@@ -46,6 +46,13 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
+
+                <div className='flex flex-col items-start gap-6 pr-10'>
+                    <h3 className='text-[20px] font-[600]'>Stay up to date</h3>
+                    <div>
+                        <input type="email" placeholder='Your email address' className='py-1 pl-1 pr-10 rounded-[8px] opacity-[0.2]'/>
+                    </div>
+                </div>
             </div>
         </div>
     );
