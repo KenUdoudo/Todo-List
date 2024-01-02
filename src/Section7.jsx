@@ -5,8 +5,8 @@ import three from './assests/image-20.png'
 const Section7 = () => {
     return (
         <div>
-            <div className="flex flex-col items-center gap-[8px] text-center px-[40px] md:px-[166px] py-[5px] font-inter">
-                <h3 className='text-[#4D4D4D] text-[20px] md:text-[36px] font-[600] self-stretch'>Caring is the new marketing</h3>
+            <div className="flex flex-col items-center gap-[8px] text-center px-[40px] md:px-[166px] py-[10px] font-inter">
+                <h3 className='text-[#4D4D4D] text-[25px] md:text-[36px] font-[600] self-stretch'>Caring is the new marketing</h3>
                 <p className='w-4/5 md:w-[628px] text-[#717171] text-[16px]'>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
             </div>
 
