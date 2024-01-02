@@ -5,7 +5,7 @@ import twitter from './assests/twitter.png'
 import yt from './assests/yt.png'
 const Footer = () => {
     return (
-        <div className="font-inter flex px-[165px] py-[64px] items-start gap-[125px] bg-[#263238] text-[#F5F7FA]">
+        <div className="font-inter flex flex-col md:flex-row px-[20px] lg:px-[100px] xl:px-[165px] py-[64px] items-start md:gap-[50px] lg:gap-[125px] bg-[#263238] text-[#F5F7FA]">
             <div className="flex flex-col items-start gap-[40px]">
                 <div><img src={ logo }/></div>
                 <div className='flex flex-col gap-1'>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex items-start gap-7'>
+            <div className='flex flex-wrap items-start gap-7'>
                 <div className='flex flex-col items-start gap-6 pr-10'>
                     <h3 className='text-[20px] font-[600]'>Company</h3>
                     <div className='text-[14px]'>
